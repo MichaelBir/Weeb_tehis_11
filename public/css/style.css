@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Roboto', sans-serif;
+    background-color: #999393;
+}
+
+.container {
+    margin: 8rem auto;
+    width: 75%;
+}
+
+.form-container {
+    width: 75%;
+    text-align: center;
+    margin: 1rem auto;
+}
+
+form {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.result-container {
+    text-align: center;
+}
+
+.movie-data-list {
+    list-style: none;
+}
+li{
+    margin-top: 0.4rem;
+}
+
+span {
+    font-weight: bold;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.741)
+}
+
+.overview{
+    margin-top: 1rem;
+    text-transform: capitalize;
+    font-style: italic;
+    font-size: 85%;
+    font-weight: normal;
+}
+
+img {
+    width: 250px;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+.button{
+    width: 5rem;
+    padding: 0.5rem;
+    color: rgb(240, 243, 245);
+    background-color: rgba(116, 116, 116, 0.596);
+    font-size: 0.8rem;
+    border-radius: 1px;
+    border-color: rgb(30, 30, 30);
+}
